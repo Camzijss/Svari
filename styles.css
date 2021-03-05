@@ -1,0 +1,46 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.panes {
+  height: 100%;
+}
+
+.leftpane {
+  width: 20%;
+  height: 100%;
+  float: left;
+  background-color: #282828;
+  border-collapse: collapse;
+}
+
+.rightpane {
+  width: 80%;
+  height: 100%;
+  position: relative;
+  float: right;
+  background-color: #3F3E3E;
+  border-collapse: collapse;
+}
+
+#time, #amount, #temp {
+  padding: 2%;
+}
+
+h1 {
+  font-family: Helvetica;
+  text-align: center;
+  font-size: 200%;
+  color: #016AA6;
+}
+
+.line {
+  height: 30px;
+  width: 80%;
+  background-color: #3F3E3E;
+  margin: auto;
+  border-radius: 45px;
+}
